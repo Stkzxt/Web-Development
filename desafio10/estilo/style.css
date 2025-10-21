@@ -29,6 +29,14 @@ body {
   font-family:var(--fonte-padrao);
 }
 
+a.externo::after {
+  content: '\1F517';
+}
+
+a.github::after {
+  content: ' \2622';
+}
+
 header {
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
   min-height: 150px;
@@ -57,6 +65,22 @@ header > p {
 
 nav {
   background-color:var(--cor5);
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0,0,0,0.192);
+}
+
+nav > a {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.2s;
+}
+
+nav > a:hover {
+  background-color:var(--cor3);
+  color:var(--cor5);
 }
 
 main {
@@ -78,6 +102,36 @@ main h1 {
 
 main h2 {
   font-family:var(--fonte-android);
+  color:var(--cor4);
+  font-size: 1.3em;
+  background-image:linear-gradient(to right,var(--cor1),transparent);
+  text-indent: 8px;
+}
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+main strong {
+  color:var(--cor4);
+  font-weight: bold;
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color:var(--cor5);
+  background-color:var(--cor1);
+  padding: 2px 6px;
+}
+
+main a:hover{
+  text-decoration: underline;
+  color:var(--cor4);
 }
 
 main img {
@@ -85,12 +139,66 @@ main img {
 }
 
 main img.pequena {
-  width: 50%;
+  max-width: 350px;
   display: block;
   margin: auto;
+}
+
+div.video {
+  background-color: var(--cor5);
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* impede rolagem lateral */
+  aspect-ratio: 16 / 9; /* mantém proporção perfeita */
+  border-radius: 10px; /* opcional, pra ficar mais bonitinho */
+}
+
+div.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+aside {
+  background-color:var(--cor1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.281);
+}
+
+aside > h3 {
+  background-color:var(--cor4);
+  color: white;
+  padding: 10px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+  list-style-type: '\2714\00A0\00A0';
+  list-style-position: inside;
+  columns: 2;
 }
 
 footer {
   background-color:var(--cor5);
   color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+footer a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color:var(--cor1);
 }
