@@ -1,6 +1,6 @@
 # 🌐 Web Development Projects – Curso em Vídeo
 
-![Web GIF](https://dribbble.com/shots/4158745-Web-Development?utm_source=Clipboard_Shot&utm_campaign=nishanair&utm_content=Web%20Development&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=nishanair&utm_content=Web%20Development&utm_medium=Social_Share)
+![Descrição da imagem](https://share.google/NOaN2wdPFd4J8fpkw)
 
 ## Descrição
 Repositório com projetos de front-end desenvolvidos durante o curso HTML e CSS do Curso em Vídeo (Gustavo Guanabara).  
