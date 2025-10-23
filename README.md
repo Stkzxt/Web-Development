@@ -1,6 +1,6 @@
 # 🌐 Web Development Projects – Curso em Vídeo
 
-![Web Development](https://cdn-icons-png.flaticon.com/512/919/919827.png)
+![Web Development GIF](https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif)
 
 ## Descrição
 Repositório com projetos de front-end desenvolvidos durante o curso HTML e CSS do Curso em Vídeo (Gustavo Guanabara).  
