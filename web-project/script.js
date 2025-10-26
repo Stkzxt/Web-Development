@@ -45,3 +45,14 @@ function abrirModal(index) {
 fecharModal.onclick = () => { modal.style.display = "none"; };
 window.onclick = (event) => { if (event.target == modal) modal.style.display =
 "none"; };
+
+function filtrarProdutos() {
+  const input = document.getElementById("search");
+  const filtro = input.value.toLowerCase();
+  const produtos = document.querySelectorAll(".product");
+
+  produtos.forEach(produto => {
+    const nome = produto.querySelector("h2").innerText.toLowerCase();
+    produto.style.display = nome.includes(filtro) ? "" : "none";
+  });
+}
