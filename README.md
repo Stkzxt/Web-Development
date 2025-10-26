@@ -1,9 +1,9 @@
-# 🌐 Web Development Projects – Curso em Vídeo
+# 🌐 Web Development Projects
 
 ![Web Development GIF](https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif)
 
 ## Descrição
-Repositório com projetos de front-end desenvolvidos durante o curso HTML e CSS do Curso em Vídeo (Gustavo Guanabara).  
+Repositório com projetos de front-end desenvolvidos durante o curso HTML e CSS do Curso em Vídeo (Gustavo Guanabara) e JavaScript da Hashtag Programação.  
 Inclui páginas web responsivas, integração de vídeos, formulários e recursos multimídia.
 
 ## Tecnologias
