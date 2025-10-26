@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>stkz store</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stk Store</title>
+  <link rel="icon" type="image/favicon.ico" href="imagens/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+  href="imagens/favicons/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="imagens/favicons/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>Olá, mundo!</h1>
+  <header>
+    <h1>Stk Store</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Category</a>
+      <a href="#">Support</a>
+    </nav>
+  </header>
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="imagens/tenis_macho.jpg" alt="tênis masculino"
+        onclick="abrirModal(0)">
+        <h2>Men's sneakers</h2>
+        <p>$ 49,90</p>
+        <button onclick="abrirModal(0)">Buy</button>
+      </div>
+      <div class="product">
+        <img src="imagens/placa_mãe.jpg" alt="placa mãe" onclick="abrirModal(1)">
+        <h2>Placa Mae Asus Tuf Gaming A520m-plus Ii Ddr4 Preto</h2>
+        <p>$ 199,99</p>
+        <button onclick="abrirModal(1)">Buy</button>
+      </div>
+      <div class="product">
+        <img src="imagens/notebook1.jpg" alt="notebook vaio"
+        onclick="abrirModal(2)">
+        <h2>Notebook Vaio FE16 
+            - Ryzen 5 5625U
+            - Painel IPS
+            - 8gb RAM (EXPANSÍVEL ATÉ 64GB)
+            - 256gb</h2>
+        <p>$ 248,00</p>
+        <button onclick="abrirModal(2)">Buy</button>
+      </div>
+      <div class="product">
+        <img src="imagens/notebook2.jpg" alt="notebook lenovo"
+        onclick="abrirModal(3)">
+        <h2>Notebook Lenovo IdeaPad Slim 3 15IRH10 Intel Core i5-13420H 8GB
+        512GB SSD Windows 11 15.3" - 83NS0002BR Luna Grey</h2>
+        <p>$ 270,90</p>
+        <button onclick="abrirModal(3)">Buy</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Stk Store</p>
+  </footer>
+<!-- Modal de detalhes -->
+  <div id="modal-produto" class="modal">
+  <div class="modal-conteudo">
+    <span id="fechar-modal" class="fechar">&times;</span>
+    <img id="modal-imagem" src="" alt="Produto">
+    <h2 id="modal-nome"></h2>
+    <p id="modal-preco"></p>
+    <p id="modal-descricao"></p>
+    <button id="modal-comprar">Buy</button>
+  </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
