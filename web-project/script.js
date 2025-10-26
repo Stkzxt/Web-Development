@@ -43,8 +43,7 @@ function abrirModal(index) {
 }
 
 fecharModal.onclick = () => { modal.style.display = "none"; };
-window.onclick = (event) => { if (event.target == modal) modal.style.display =
-"none"; };
+window.onclick = (event) => { if (event.target == modal) modal.style.display ="none"; };
 
 function filtrarProdutos() {
   const input = document.getElementById("search");
