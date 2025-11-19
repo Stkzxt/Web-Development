@@ -1,0 +1,1 @@
+Este é meu site de curiosidades, a princípio ele tem como tema a história do Android. Fiz ele por volta de setembro e outubro, ausndo fiz ele foi em paraelo ao meu curso de html e css. Ele não contem JavaScript.
